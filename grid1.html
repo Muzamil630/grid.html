@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid learning</title>
+    <style>
+        .container{
+            background-color: whitesmoke;
+            height: 90vh;
+        border: 1px solid black;
+        
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: repeat(4,auto);
+        row-gap: 2px;
+        column-gap: 2px;
+        }
+        
+        .on{
+            
+            background-image: url(https://img.freepik.com/free-photo/_78949-15.jpg?size=240&ext=jpg);
+        }
+        .to{
+            background-image: url(https://img.freepik.com/free-photo/lifestyle-woman-without-care_52683-90917.jpg?size=626&ext=jpg);
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+           
+        }
+        .th{
+            background-image: url(https://img.freepik.com/free-photo/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal_181624-24825.jpg?size=626&ext=jpg&ga=GA1.2.1502419243.1666239863);
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 5;
+            background-size: cover;
+        }
+        .fr{
+            background-image: url(https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?size=626&ext=jpg&ga=GA1.2.1502419243.1666239863)
+        }
+        .fi{
+            background-image: url(https://img.freepik.com/free-photo/top-view-roses-flowers_23-2148860041.jpg?size=338&ext=jpg&ga=GA1.2.1502419243.1666239863);
+        }
+        .si{
+            background-image: url(https://img.freepik.com/free-photo/mumbai-skyline-skyscrapers-construction_469504-21.jpg?size=626&ext=jpg&ga=GA1.2.1502419243.1666239863);
+        }
+        .sev{
+            background-image: url(https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?size=626&ext=jpg&ga=GA1.2.1502419243.1666239863);
+        }
+        .eig{
+            background-image: url(https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-ladders-education-day_23-2149241014.jpg?size=338&ext=jpg&ga=GA1.2.1502419243.1666239863);
+        }
+        .nin{
+            background-image: url(https://t3.ftcdn.net/jpg/05/36/20/28/240_F_536202816_sFFmqKC2tDdqubCgfrfMN4pmjwdRvPow.jpg);
+        }
+        .te{
+            background-image: url(https://t4.ftcdn.net/jpg/05/37/51/13/240_F_537511365_BqMAHu6GuaygL54QwGigQYBAdi9xsSCg.jpg);
+        }
+        .ele{
+            background-image: url(https://img.freepik.com/premium-photo/technology-digital-wave-background_34629-925.jpg?size=626&ext=jpg&ga=GA1.2.1502419243.1666239863);
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .tel{
+            background-image: url(https://img.freepik.com/premium-photo/foliage-tropical-leaf-dark-green-with-rain-water-drop-texture-abstract-pattern-nature-background_1484-2338.jpg?size=626&ext=jpg&ga=GA1.2.1502419243.1666239863);
+        }
+       
+    
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item on">one</div>
+        <div class="item to">two</div>
+        <div class="item th">three</div>
+        <div class="item fr">four</div>
+        <div class="item fi">five</div>
+        <div class="item si">six</div>
+        <div class="item sev">seven</div>
+        <div class="item eig">eight</div>
+        <div class="item nin">nine</div>
+        <div class="item te">ten</div>
+        <div class="item ele">eleven</div>
+        <div class="item tel">tweleve</div>
+
+
+</body>
+</html>

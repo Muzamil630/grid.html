@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid learning</title>
+    <style>
+        .container{
+            background-color: whitesmoke;
+            height: 90vh;
+        border: 1px solid black;
+        
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: repeat(4,auto);
+        row-gap: 2px;
+        column-gap: 2px;
+        }
+        
+        .on{
+            background-color: blue;
+        }
+        .to{
+            background-color: red;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+           
+        }
+        .th{
+            background-color: yellow;
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 5;
+        }
+        .fr{
+            background-color: green;
+        }
+        .fi{
+            background-color: rgb(230, 18, 230);
+        }
+        .si{
+            background-color: darkorchid;
+        }
+        .sev{
+            background-color: orange;
+        }
+        .eig{
+            background-color: grey;
+        }
+        .nin{
+            background-color: purple;
+        }
+        .te{
+            background-color: royalblue;
+        }
+        .ele{
+            background-color: darkgreen;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .tel{
+            background-color: darkred;
+        }
+       
+    
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item on">one</div>
+        <div class="item to">two</div>
+        <div class="item th">three</div>
+        <div class="item fr">four</div>
+        <div class="item fi">five</div>
+        <div class="item si">six</div>
+        <div class="item sev">seven</div>
+        <div class="item eig">eight</div>
+        <div class="item nin">nine</div>
+        <div class="item te">ten</div>
+        <div class="item ele">eleven</div>
+        <div class="item tel">tweleve</div>
+
+
+</body>
+</html>
